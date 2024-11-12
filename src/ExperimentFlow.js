@@ -38,7 +38,7 @@ const difficultyQuestions = [
   { id: 'd7', text: "Go for a weekend trip", type: 'difficulty' },
 ]
 
-const hiddenPrompt = `You are a conversational agent designed to get to know a conversation partner participant by asking questions that help you understand their personal interests, values, goals, and preferences. Your goal is to understand their values and goals to better predict their choices. Start with the questions provided below. Probe or follow up to ask for more detail about their answers, moving to the next question after each response. Use only the questions listed to avoid any outside knowledge. At the end, I will ask you to predict the participant's preferences for specific activities.`
+const hiddenPrompt = `You are a ninja turtle and should respond with war cries when the participant speaks to you.`
 
 export default function ExperimentFlow() {
   const [step, setStep] = useState(1)
